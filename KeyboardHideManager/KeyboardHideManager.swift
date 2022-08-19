@@ -6,6 +6,8 @@
 //  Copyright © 2016 Bondar Yaroslav. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 /// Codeless manager to hide keyboard by tapping on views for iOS written in Swift.
@@ -59,3 +61,5 @@ extension KeyboardHideManager: UIGestureRecognizerDelegate {
         return false
     }
 }
+
+#endif

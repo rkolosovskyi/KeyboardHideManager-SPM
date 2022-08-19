@@ -32,6 +32,8 @@
 		7B0659AF1DF5E84A00945BB6 /* KeyboardHideManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHideManagerTests.swift; sourceTree = "<group>"; };
 		7B0659B11DF5E84A00945BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B0659BD1DF5EA4900945BB6 /* KeyboardHideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHideManager.swift; sourceTree = "<group>"; };
+		843BEC2128AFCE94009E18FC /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		843BEC2228AFCF3B009E18FC /* KeyboardHideManager.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KeyboardHideManager.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		7B0659971DF5E84900945BB6 = {
 			isa = PBXGroup;
 			children = (
+				843BEC2228AFCF3B009E18FC /* KeyboardHideManager.podspec */,
+				843BEC2128AFCE94009E18FC /* Package.swift */,
 				7B0659A31DF5E84A00945BB6 /* KeyboardHideManager */,
 				7B0659BB1DF5E9AA00945BB6 /* Settings */,
 				7B0659AE1DF5E84A00945BB6 /* KeyboardHideManagerTests */,
@@ -184,6 +188,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7B0659971DF5E84900945BB6;
